@@ -45,7 +45,7 @@ git push
 
 ```{bash}
 # Getting updates from the upstream of the submodule
-cd tryCatchLog  # optional?
+cd <workspace root>  # the following command does only work if you are in the parent project!
 git submodule update --remote --merge
 ```
 
