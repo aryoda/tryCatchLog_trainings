@@ -1,0 +1,20 @@
+## Keyboard shortcuts
+
+To navigate through the slides you mainly use these keys:
+
+KEY   |   ACTION
+----- | --------
+←	   |  Prev. chapter
+→	   |  Next chapter
+↑	   |  Prev. slide in chapter
+↓    |  Next slide in chapter
+Home  | First slide
+End	  | Last slide
+F	    | Full screen (ESC to leave)
+ESC, O | Slide overview (index of slides)
+
+
+Type "?" so see a list of all keyboard shortcuts
+
+[Click here to open a printable version of these slides](?print-pdf)
+

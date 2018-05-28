@@ -1,0 +1,3 @@
+[submodule "tryCatchLog"]
+	path = tryCatchLog
+	url = https://github.com/aryoda/tryCatchLog.git

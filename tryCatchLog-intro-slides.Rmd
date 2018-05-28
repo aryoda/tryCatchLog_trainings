@@ -1,0 +1,149 @@
+---
+title: |
+       | Error handling in R with tryCatchLog:
+       | Catching, logging, post-mortem analysis
+author: Jürgen Altfeld
+date:   April 2018</br></br></br><p style="font-size:0.5em">These slides have been created with RMarkdown and the package <a href="https://github.com/rstudio/revealjs">revealjs</a><p>
+description: Introduction into basic condition handling with R
+             and advanced condition handling with the package tryCatchLog
+output:
+        revealjs::revealjs_presentation:
+          mathjax: null
+# Avoid loading mathjax from the internet
+# See also: https://rmarkdown.rstudio.com/revealjs_presentation_format.html
+          self_contained: true
+#          self_contained: false
+# chalkboard added Nov. 2016: https://github.com/rstudio/revealjs/issues/42 but this requires "selfcontained" = false !!!
+#          reveal_plugins: ["notes", "search", "zoom", "chalkboard"]
+          theme: white
+          highlight: tango
+          center: false
+          height: 1024
+          width: 1920
+          margin: 0.1
+          minScale: 0.2
+          maxScale: 1.0
+          reveal_options:
+            slideNumber: true
+#            previewLinks: true
+#
+# Child Rmd files are currently not supported as vignettes in R so I had to rename
+# the file endings from "Rmd" to "Rmd_child" as workaround until the R issue is solved and released.
+# See:
+# https://github.com/yihui/knitr/issues/1540
+# https://bugs.r-project.org/bugzilla3/show_bug.cgi?id=17416
+vignette: >
+  %\VignetteIndexEntry{Error handling in R with tryCatchLog}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+
+
+```{r child = "tryCatchLog/vignettes/01_license.Rmd_child"}
+```
+
+
+
+<!-- !!! NEVER EVER ADD HTML COMMENTS INSIDE OF THE STYLE TAG SINCE IT BREAKS THE STYLE SOMETIMES !!! -->
+
+<style type="text/css">
+
+  .reveal .slides .title {
+    font-size: 125%;
+    margin-bottom: 150px;
+    color: black;
+    text-transform: none;
+  }
+
+  .reveal .slides .author {
+    font-size: 75%;
+    color: grey;
+    text-transform: none;
+  }
+
+  .reveal .slides .date {
+    font-size: 75%;
+    color: grey;
+    text-transform: none;
+  }
+
+  .reveal .slide h1 {
+    font-size: 40px;
+    text-align: left;
+    color: blue;
+    text-transform: none;
+  }
+
+  .reveal .slide h2 {
+    font-size: 30px;
+    text-align: left;
+    color: blue;
+  }
+
+  .reveal .slide h3 {
+    font-size: 20px;
+    text-align: left;
+    color: blue;
+  }
+
+
+  .reveal section > p {
+    text-align: left;
+    font-size: 70%;
+  }
+
+  .reveal section ul  {
+    list-style-type: square;
+    display: block;
+    font-size: 70%;
+  }
+
+  .reveal section ol  {
+    display: block;
+    font-size: 70%;
+  }
+  
+  .reveal section code {
+    font-size: 90%;
+    font-familie: Courier
+  }
+
+  .reveal pre {
+    width: 98%;
+  }
+
+</style>
+
+
+```{r child = "tryCatchLog/vignettes/05_overview.Rmd_child"}
+```
+
+
+
+```{r child = "tryCatchLog/vignettes/02_toc.Rmd_child"}
+```
+
+[Printable version of these slides](?print-pdf)
+
+
+
+```{r child = "03_keyboard_shortcuts.Rmd"}
+```
+
+
+
+```{r child = "tryCatchLog/vignettes/10_standard_R_conditions.Rmd_child"}
+```
+
+
+
+```{r child = "tryCatchLog/vignettes/20_tryCatchLog.Rmd_child"}
+```
+
+
+
+```{r child = "tryCatchLog/vignettes/90_appendix.Rmd_child"}
+```
+
+
