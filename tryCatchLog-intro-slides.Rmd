@@ -3,7 +3,7 @@ title: |
        | Error handling in R with tryCatchLog:
        | Catching, logging, post-mortem analysis
 author: Jürgen Altfeld
-date:   April 2018</br></br></br><p style="font-size:0.5em">These slides have been created with RMarkdown and the package <a href="https://github.com/rstudio/revealjs">revealjs</a><p>
+date:   May 2018</br></br></br><p style="font-size:0.5em">These slides have been created with RMarkdown and the package <a href="https://github.com/rstudio/revealjs">revealjs</a><p>
 description: Introduction into basic condition handling with R
              and advanced condition handling with the package tryCatchLog
 output:
